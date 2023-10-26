@@ -1,0 +1,156 @@
+<!DOCTYPE html> <!-- Deklarata e HTML dokumentit -->
+
+<html lang="en"> <!-- Filloja e faqes HTML, gjuha e dokumentit -->
+
+<head>
+  <meta charset="UTF-8" /> <!-- Përcakto karakterin e kodimit të dokumentit -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Përcakto pamjen në pajisje të ndryshme -->
+  <title>UBT</title> <!-- Titulli i faqes -->
+</head>
+
+<body style="background-color: pink"> <!-- Trupi i faqes, ngjyra e sfondit -->
+
+  <header>
+    <div> <!-- Koka e faqes -->
+      <img src="./assets/Ubtlogo.png" alt="" width="100px" style="display: inline" />
+      <p style="display: inline">Home</p> <!-- Paragrafi me tekstin "Home" -->
+      <p style="display: inline">Rreth nesh</p> <!-- Paragrafi me tekstin "Rreth nesh" -->
+      <p style="display: inline">Kontakto</p> <!-- Paragrafi me tekstin "Kontakto" -->
+    </div>
+
+    <ol>
+      <li style="padding-right: 20px">Lajmet</li> <!-- Lista e rradhës me tekstin "Lajmet" -->
+      <li style="padding-right: 20px">Teknologjia</li> <!-- Lista e rradhës me tekstin "Teknologjia" -->
+      <li style="padding-right: 20px">Sporti</li> <!-- Lista e rradhës me tekstin "Sporti" -->
+      <li style="padding-right: 20px">Shëndetësia</li> <!-- Lista e rradhës me tekstin "Shëndetësia" -->
+      <li style="padding-right: 20px">Punët</li> <!-- Lista e rradhës me tekstin "Punët" -->
+      <li style="padding-right: 20px">Informacionet</li> <!-- Lista e rradhës me tekstin "Informacionet" -->
+    </ol>
+  </header>
+
+  <article>
+    <h1>Bashkohu me ne</h1> <!-- Titulli i seksionit "Bashkohu me ne" -->
+  </article>
+
+  <section>
+    <fieldset>
+      <legend>Regjistrimi</legend> <!-- Titulli i grupit "Regjistrimi" -->
+      <table>
+        <tr>
+          <td>Emri</td> <!-- Etiketa për emrin -->
+          <td><input type="text" /></td> <!-- Fusha për futjen e emrit -->
+        </tr>
+        <tr>
+          <td>Mbiemri</td> <!-- Etiketa për mbiemrin -->
+          <td><input type="text" /></td> <!-- Fusha për futjen e mbiemrit -->
+        </tr>
+        <tr>
+          <td>Email</td> <!-- Etiketa për emailin -->
+          <td><input type="text" /></td> <!-- Fusha për futjen e emailit -->
+        </tr>
+        <tr>
+          <td>Mosha</td> <!-- Etiketa për moshën -->
+          <td><input type="number" /></td> <!-- Fusha për futjen e moshës -->
+        </tr>
+        <tr>
+          <td>Ditelindja</td> <!-- Etiketa për datën e lindjes -->
+          <td><input type="date" /></td> <!-- Fusha për futjen e datës së lindjes -->
+        </tr>
+        <tr>
+          <td>Gjinia</td> <!-- Etiketa për gjininë -->
+          <td><input type="radio" />M <input type="radio" />F</td> <!-- Butonat radio për zgjedhjen e gjinisë -->
+          <!-- <td></td> -->
+        </tr>
+        <tr>
+          <td>Vendlindja</td> <!-- Etiketa për vendin e lindjes -->
+          <td>
+            <select>
+              <option>Prishtina</option> <!-- Lista zgjedhore me një opsion "Prishtina" -->
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>CV</td> <!-- Etiketa për ngarkimin e CV-së -->
+          <td>
+            <input type="file" /> <!-- Fusha për ngarkimin e CV-së -->
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="submit" /></td> <!-- Butoni për dërgimin e formës -->
+        </tr>
+      </table>
+    </fieldset>
+  </section>
+
+  <section>
+    <fieldset>
+      <legend>Orari</legend> <!-- Titulli i grupit "Orari" -->
+      <table border="1">
+        <thead>
+          <th></th>
+          <th>09:00 - 10:30</th> <!-- Kolona për orën 09:00 - 10:30 -->
+          <th>10:40 - 12:10</th> <!-- Kolona për orën 10:40 - 12:10 -->
+          <th>12:40 - 14:10</th> <!-- Kolona për orën 12:40 - 14:10 -->
+          <th>14:20 - 15:50</th> <!-- Kolona për orën 14:20 - 15:50 -->
+          <th>16:00 - 17:30</th> <!-- Kolona për orën 16:00 - 17:30 -->
+        </thead>
+        <tbody>
+          <tr>
+            <th>E Hënë</th> <!-- Dita e hënë -->
+            <td colspan="2">Inxhinieri e Web-it</td> <!-- Lëndë: Inxhinieri e Web-it -->
+            <td></td>
+            <td colspan="2">Kursi i Laboratorit 1</td> <!-- Lëndë: Kursi i Laboratorit 1 -->
+          </tr>
+          <tr>
+            <th>E Martë</th> <!-- Dita e martë -->
+            <td colspan="6" rowspan="2" style="text-align: center">Pushim</td> <!-- Pushim me tekst të qendrueshëm -->
+          </tr>
+          <tr>
+            <th>E Mërkurë</th> <!-- Dita e mërkurë -->
+          </tr>
+          <tr>
+            <th>E Enjte</th> <!-- Dita e enjte -->
+            <td>Databaza</td> <!-- Lënda: Databaza -->
+            <td>SHK2</td>
+            <td>Algoritmi</td> <!-- Lënda: Algoritmi -->
+            <td colspan="2"></td>
+          </tr>
+        </tbody>
+      </table>
+      <fieldset>
+        <legend>Lëndët</legend> <!-- Titulli i grupit "Lëndët" -->
+        <ul style="list-style-type: square">
+          <li>
+            Inxhinieri e Web-it <!-- Lënda: Inxhinieri e Web-it -->
+            <ul style="color: black; list-style-type: disc">
+              <li>HTML</li> <!-- Tema nën-lëndë: HTML -->
+              <li>CSS</li> <!-- Tema nën-lëndë: CSS -->
+              <ul style="color: black; list-style-type: circle">
+                <li>Inline</li> <!-- Nën-tema: Inline -->
+                <li>Internal</li> <!-- Nën-tema: Internal -->
+                <li>Eksternal</li> <!-- Nën-tema: Eksternal -->
+              </ul>
+              <li>JS</li> <!-- Tema nën-lëndë: JS -->
+              <li>
+                PHP <!-- Tema nën-lëndë: PHP -->
+                <ol style="color: black" type="i">
+                  <li>OOP</li> <!-- Nën-tema: OOP -->
+                  <li>Procedural</li> <!-- Nën-tema: Procedural -->
+                </ol>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </fieldset>
+    </fieldset>
+  </section>
+
+  <footer style="text-align: center">
+    <b>2023 - UBT SHKI - <a href="">Referenca</a></b> <!-- Footer i faqes me vitin dhe referencën -->
+  </footer>
+
+</body>
+
+</html>
