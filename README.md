@@ -1,10 +1,10 @@
 # Dizajni dhe zhvillimi i uebit
 
 <img
-  src="/assets/greta_ahma.jpeg"
+  src="/assets/greta_ahma.jpg"
   alt="Greta Ahma"
   title="Optional title"
-  style="border: 1px solid black; border-radius: 50%;width:45%"><br>
+  style="border: 1px solid black; border-radius: 50%;width:45%">
 <img
   src="/assets/elita_hajrizi.jpeg"
   alt="Elita Hajrizi"
