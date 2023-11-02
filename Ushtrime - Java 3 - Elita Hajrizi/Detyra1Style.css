@@ -1,0 +1,32 @@
+main .titulli {
+  border: 5px solid black;
+  width: 300px;
+  padding-left: 25px;
+  color: black;
+}
+
+main .titulli:first-of-type {
+  color: orange !important;
+}
+
+main > .nentitulli {
+  color: red;
+}
+.external {
+  color: blue;
+}
+
+.inline {
+  color: red;
+}
+
+.titull {
+  border: 5px solid black;
+  width: 300px;
+  padding-left: 25px;
+  color: black;
+}
+
+.klasa1 {
+  color: red;
+}

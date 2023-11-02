@@ -1,0 +1,43 @@
+.header {
+  /* border: 5px solid black; */
+  width: 100%;
+  padding-left: 25px;
+  color: black;
+  padding: 10px;
+  background-color: lightseagreen;
+}
+.header > a {
+  padding-left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Make a form to align all things in center */
+.form {
+  text-align: center;
+  border: 2px dotted orange;
+}
+
+.form > h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: orange;
+}
+
+.form > label {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.form > button {
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: orange;
+}
+
+.footer {
+  color: red;
+}
+
+.footer:active {
+  color: violet;
+}
